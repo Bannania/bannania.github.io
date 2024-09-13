@@ -1,0 +1,102 @@
+body
+{
+    color: black;
+}
+
+.content
+{
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content.darkMode
+{
+    max-width: 800px;
+    margin: 0 auto;
+    background: #353535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#download {
+    cursor: pointer;
+    border-radius: 5px;
+    background: #84d4fa;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#download:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    background: #84d4fa;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+
+#windowsDownload
+{
+    cursor: not-allowed;
+    border-radius: 5px;
+    background: #84d4fa;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#windowsDownload:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+
+body.darkMode
+{
+    background-color: #353535;
+    color: white;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h1, h2{
+    font-family: sans-serif;
+}
